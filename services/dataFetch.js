@@ -7,7 +7,7 @@ async function fetchLiveData() {
     const mockData = [
       { name: 'Will it rain today?', startTime: new Date(), odds: { Yes: 1.8, No: 2.1 } },
     ];
-    await Event.deleteMany({}); 
+    // await Event.deleteMany({}); 
     const events = await Event.insertMany(mockData);
     return events;
   } catch (error) {
