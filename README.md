@@ -7,9 +7,9 @@ Backend system for an opinion trading app built with Node.js, Express, MongoDB, 
 1. Clone the repo: `git clone <repo-url>`
 2. Install dependencies: `npm install`
 3. Create a `.env` file with:
- ``` MONGO_URI=mongodb+srv://rachityadav342:********@cluster0.tefbf.mongodb.net/opinion-trading?retryWrites=true&w=majority
+ MONGO_URI=mongodb+srv://rachityadav342:********@cluster0.tefbf.mongodb.net/opinion-trading?retryWrites=true&w=majority
  JWT_SECRET=your-secret-key
- PORT=3000 ``` 
+ PORT=3000 
  
 4. Start MongoDB Atlas to check collections.
 5. Run the server: `npm start`
